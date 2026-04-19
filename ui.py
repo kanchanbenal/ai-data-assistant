@@ -8,7 +8,7 @@ from langchain_core.prompts import PromptTemplate
 
 st.set_page_config(page_title="AI Data Assistant", layout="centered")
 
-st.title("🤖 AI Data Assistant")
+st.title(" AI Data Assistant")
 st.caption("Ask questions about your e-commerce dataset using natural language")
 
 @st.cache_resource
@@ -41,7 +41,7 @@ Question: {input}
 
 db_chain = load_chain()
 
-query = st.text_input("💬 Ask your question")
+query = st.text_input("Ask your question")
 
 if query:
     with st.spinner("Thinking..."):
@@ -60,4 +60,4 @@ if query:
             st.success(f"✅ Answer: {result}")
 
         except Exception as e:
-            st.error(f"❌ Error: {e}")
+            st.error(f"Error: {e}")

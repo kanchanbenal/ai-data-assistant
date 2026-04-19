@@ -1,10 +1,10 @@
-# 🤖 AI Data Assistant
+#  AI Data Assistant
 
 An AI-powered data assistant that converts natural language queries into SQL and retrieves insights from an e-commerce dataset.
 
 ---
 
-## 🚀 Features
+##  Features
 - Natural language → SQL conversion
 - SQLite database integration
 - Local LLM using LLaMA3 (via Ollama)
@@ -12,7 +12,7 @@ An AI-powered data assistant that converts natural language queries into SQL and
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python
 - LangChain
 - Ollama (LLaMA3)
@@ -21,7 +21,7 @@ An AI-powered data assistant that converts natural language queries into SQL and
 
 ---
 
-## 📊 Example Queries
+## Example Queries
 - total number of events
 - how many purchases are there
 - average price
@@ -29,13 +29,13 @@ An AI-powered data assistant that converts natural language queries into SQL and
 
 ---
 
-## 📸 Demo
+##  Demo
 
 <img src="AIDataAssistant.png" width="700">
 
 ---
 
-## ▶️ Run Locally
+##  Run Locally
 
 ### 1. Clone repository
 ```bash
@@ -68,7 +68,7 @@ Implemented prompt engineering for accurate SQL generation
 Developed an interactive UI using Streamlit
 
 
-📁 Project Structure
+ Project Structure
 ai-data-assistant/
 │
 ├── app.py
@@ -80,4 +80,4 @@ ai-data-assistant/
 
 
 Author
-Kanchan
+Kanchan Benal
